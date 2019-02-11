@@ -9,7 +9,7 @@
 	$kakao_key = $data["user_key"];
 
 	//DB연결
-	$conn = mysqli_connect("localhost","entjqcjswo","qhrhtlvdj0414*","entjqcjswo");
+	$conn = mysqli_connect("localhost","userID","userPassword","DB");
 
 	//사용자 관련 전역 변수 
 	$user_id;
