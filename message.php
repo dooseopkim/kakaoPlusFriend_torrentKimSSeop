@@ -176,7 +176,7 @@
 	                     }';   
 	                  break;
 					case '문의하기':
-						echo'{"message":{"text":" ⎛° ͜ʖ°⎞⎠ \n【# 문의하기】\n======================\n▶ 관리자 카카오톡 ID  \nentjqcjswo@naver.com \n카카오톡으로 문의해주세요\n메일도 가능해요"},"keyboard":{"type":"buttons","buttons":["컨텐츠 시청하기","이어보기","Home","도움말","문의하기","컨텐츠 신청하기"]}}';
+						echo'{"message":{"text":" ⎛° ͜ʖ°⎞⎠ \n【# 문의하기】\n======================\n▶ 관리자 카카오톡 ID  \kdsprj@gmail.com \n카카오톡으로 문의해주세요\n메일도 가능해요"},"keyboard":{"type":"buttons","buttons":["컨텐츠 시청하기","이어보기","Home","도움말","문의하기","컨텐츠 신청하기"]}}';
 						break;
 					default:
 						echo'
