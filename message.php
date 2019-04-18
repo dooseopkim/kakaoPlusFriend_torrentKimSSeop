@@ -71,18 +71,6 @@
 		logging($user_id,$content,"");
 
 		switch ($status) {
-			case 'star':
-				mysqli_query($conn, "INSERT INTO tbl_star VALUES((SELECT IFNULL(MAX(u.st_id),0)+1 FROM tbl_star u),\"".$content."\",now())");
-				echo'{
-						"message":
-							{
-								"text":"나도 사랑해 ~~~"
-							},
-						"keyboard":{
-							"type":"buttons",
-							"buttons":["Home"]
-						}
-				}';
 			//회원가입 이후 별칭 업데이트
 			case 'AccountReg':
 				// mysqli_query($conn,"UPDATE tbl_users SET prev_status = 'AccountReg', curr_status = 'AliasReg' WHERE user_id = \"".$user_id."\"");
